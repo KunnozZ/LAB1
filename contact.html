@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NENO CONTACT</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+
+  <canvas id="canvas"></canvas>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="logo">NENO<span>ID</span></div>
+
+    <div class="nav-links">
+      <a href="index.html">PROFILE</a>
+      <a href="gallery.html">GALLERY</a>
+      <a href="timeline.html">TIMELINE</a>
+      <a href="contact.html" class="active">CONTACT</a>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="contact-header">
+
+    <small>ESTABLISH CONNECTION</small>
+
+    <h1>LET'S <span>CONNECT</span></h1>
+
+    <p>
+      Have a project or just want to say hello?
+      Let's create something amazing together.
+    </p>
+
+    <div class="connection-status">
+      <span class="status-dot"></span>
+      CONNECTION AVAILABLE
+    </div>
+
+  </header>
+
+  <!-- CONTACT CONTENT -->
+  <main class="contact-container">
+
+    <!-- LEFT INFORMATION -->
+    <section class="contact-info">
+
+      <div class="section-label">
+        <span>01</span> CONTACT INFORMATION
+      </div>
+
+      <h2>Let's Talk<br><span>About Something</span></h2>
+
+      <p class="info-description">
+        Feel free to contact me.
+        I'm always interested in new ideas,
+        creative projects and opportunities.
+      </p>
+
+      <!-- EMAIL -->
+      <div class="contact-method">
+
+        <div class="method-icon">✉</div>
+
+        <div>
+          <small>EMAIL ADDRESS</small>
+          <strong>pannaton9543@gmail.com</strong>
+        </div>
+
+        <button class="copy-btn"
+          data-copy="pannaton9543@gmail.com">
+          COPY
+        </button>
+
+      </div>
+
+      <!-- PHONE -->
+      <div class="contact-method">
+
+        <div class="method-icon">☎</div>
+
+        <div>
+          <small>PHONE NUMBER</small>
+          <strong>+66 62 783 9730</strong>
+        </div>
+
+        <button class="copy-btn"
+          data-copy="+66 62 783 9730">
+          COPY
+        </button>
+
+      </div>
+
+      <!-- LOCATION -->
+      <div class="contact-method">
+
+        <div class="method-icon">⌖</div>
+
+        <div>
+          <small>LOCATION</small>
+          <strong>Tha Phon, Phetchabun</strong>
+        </div>
+
+      </div>
+
+      <!-- SOCIAL -->
+      <div class="social-section">
+
+        <small>FOLLOW MY JOURNEY</small>
+
+        <div class="social-links">
+
+          <a href="https://instagram.com/kunno_pnt?utm_source=qr&avpt=MWc4Y2lzYnhnd291ag=="
+             target="_blank"
+             rel="noopener noreferrer">
+            IG
+          </a>
+
+          <a href="https://facebook.com/neno.pannaton"
+             target="_blank"
+             rel="noopener noreferrer">
+            FB
+          </a>
+
+          <a href="https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BczpRpjIZT9WQm92OcMXV0g%3D%3D"
+             target="_blank"
+             rel="noopener noreferrer">
+            IN
+          </a>
+
+          <a href="https://github.com/KunnozZ"
+             target="_blank"
+             rel="noopener noreferrer">
+            GH
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- RIGHT FORM -->
+    <section class="contact-form-section">
+
+      <div class="section-label">
+        <span>02</span> SEND A MESSAGE
+      </div>
+
+      <form id="contactForm">
+
+        <div class="form-row">
+
+          <div class="form-group">
+            <label for="name">YOUR NAME</label>
+
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your name"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="email">EMAIL ADDRESS</label>
+
+            <input
+              type="email"
+              id="email"
+              placeholder="your@email.com"
+              required
+            >
+          </div>
+
+        </div>
+
+        <div class="form-group">
+
+          <label for="subject">SUBJECT</label>
+
+          <input
+            type="text"
+            id="subject"
+            placeholder="What is this about?"
+            required
+          >
+
+        </div>
+
+        <div class="form-group">
+
+          <label for="message">YOUR MESSAGE</label>
+
+          <textarea
+            id="message"
+            rows="6"
+            placeholder="Write your message here..."
+            required
+          ></textarea>
+
+        </div>
+
+        <button type="submit" class="send-btn">
+
+          <span>SEND MESSAGE</span>
+          <span class="send-icon">➜</span>
+
+        </button>
+
+        <div class="form-status" id="formStatus">
+        </div>
+
+      </form>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="contact-footer">
+
+    <div class="footer-logo">
+      NENO<span>ID</span>
+    </div>
+
+    <p>DESIGNED FOR THE FUTURE · CREATED WITH PASSION</p>
+
+    <div class="footer-bottom">
+      © 2026 NENO IDENTITY SYSTEM
+      <span>ALL SYSTEMS NORMAL ✦</span>
+    </div>
+
+  </footer>
+
+  <script src="js/canvas.js"></script>
+  <script src="js/contact.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NENO GALLERY</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+
+  <canvas id="canvas"></canvas>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="logo">NENO<span>ID</span></div>
+
+    <div class="nav-links">
+      <a href="index.html">PROFILE</a>
+      <a href="gallery.html" class="active">GALLERY</a>
+      <a href="timeline.html">TIMELINE</a>
+      <a href="contact.html">CONTACT</a>
+    </div>
+  </nav>
+
+  <!-- GALLERY HEADER -->
+  <header class="gallery-header">
+    <small>PERSONAL COLLECTION</small>
+    <h1>MY <span>GALLERY</span></h1>
+    <p>A collection of beautiful moments and memories.</p>
+  </header>
+
+  <!-- GALLERY GRID -->
+  <main class="gallery-container">
+
+    <div class="gallery-grid">
+
+      <div class="gallery-item">
+        <img src="https://4kwallpapers.com/images/wallpapers/tropical-forest-waterfall-green-landscape-france-3840x2160-6087.jpg"
+             alt="Nature">
+        <div class="image-info">
+          <span>NATURE</span>
+          <h3>Tropical forest</h3>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvJfQhnPmrsXCJKuMYO8tCYEt3amAzNHO8p4KxVx3Mbg&s"
+             alt="Night sky">
+        <div class="image-info">
+          <span>LANDSCAPE</span>
+          <h3>Sunrise</h3>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJG2RjYbRDGsNqM3cBxIKvkDWzTMmh6jZS74MseZH5IevaDjCLPQ95nT0&s=10"
+             alt="Travel">
+        <div class="image-info">
+          <span>TRAVEL</span>
+          <h3>IceLand Highlands</h3>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0cBrpcKOLARsBwkyarCUFZIlBPMH0TPUmaRrDwi3jmA&s=10"
+             alt="Ocean">
+        <div class="image-info">
+          <span>OCEAN</span>
+          <h3>Beach at golden hour</h3>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://i.extremetech.com/imagery/content-types/01CpNocyArp4gWw25v528WA/images-2.jpg"
+             alt="Forest">
+        <div class="image-info">
+          <span>GAME</span>
+          <h3>Minecraft</h3>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwJMbEBZjxn1KSoUHfPWauwk7yo47L92ihsYDd_g7F-w&s=10"
+             alt="Mountain">
+        <div class="image-info">
+          <span>Game</span>
+          <h3>Mortal Kombat</h3>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="close-btn" id="closeBtn">✕</button>
+  <img id="lightboxImage" src="" alt="">
+  <p id="lightboxTitle"></p>
+</div>
+
+  <footer class="gallery-footer">
+    NENO IDENTITY SYSTEM © 2026
+  </footer>
+
+  <script src="js/canvas.js"></script>
+  <script src="js/gallery.js"></script>
+
+</body>
+</html>
